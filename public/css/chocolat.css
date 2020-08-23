@@ -1,0 +1,111 @@
+ /* Bootstrap v4.5.2 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)*/
+
+
+ html,
+ body {
+     background-color: #fff;
+     color: #636b6f;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 300;
+     height: 100vh;
+     margin: 0;
+ }
+
+ .full-height {
+     height: 100vh;
+ }
+
+ .flex-center {
+     align-items: center;
+     display: flex;
+     justify-content: center;
+ }
+
+ .position-ref {
+     position: relative;
+ }
+
+ .top-right {
+     position: absolute;
+     right: 10px;
+     top: 18px;
+ }
+
+ .content {
+     text-align: center;
+ }
+
+ .title {
+     font-size: 84px;
+ }
+
+ .links>a {
+     color: #636b6f;
+     padding: 0 25px;
+     font-size: 13px;
+     font-weight: 600;
+     letter-spacing: .1rem;
+     text-decoration: none;
+     text-transform: uppercase;
+ }
+
+ .m-b-md {
+     margin-bottom: 30px;
+ }
+
+ /*******************************************/
+ /* Estilos para el Header */
+
+
+ .bg-purple {
+     background-color: #5e106f;
+ }
+
+
+ @media screen and (min-width: 320px) and (max-width: 575.98px) {
+    .logo-header {
+        width: 100%;
+        margin: auto !important;
+    }  
+
+    .social-size{
+        font-size: xx-large;
+        padding-left: 0.55rem;
+        padding-right: 0.55rem;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin: 0;
+    }
+ }
+
+ @media screen and (min-width: 0px) and (max-width: 319.98px) {
+
+    .logo-header {
+        width: 100%;
+        margin: auto !important;
+    }
+
+    .social-size{
+        font-size: x-large;
+        padding-left: 0.55rem;
+        padding-right: 0.55rem;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin: 0;
+    }
+ }
+
+ nav ul li a{
+     color: #5e106f !important;
+     text-align: center;
+ }
+
+ nav ul li a:hover{
+    color: #ffffff !important;
+    background-color: #5e106f;
+    border-radius: 1rem;
+
+}
